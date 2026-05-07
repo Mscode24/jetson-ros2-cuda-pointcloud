@@ -36,8 +36,8 @@ pip3 install cupy-cuda102 # Use version matching your CUDA toolkit
 Clone this into your ROS 2 workspace `src` folder:
 
 ```bash
-cd ~/your_ws/src
-git clone <your-repo-link>
+cd ~/ros2_ws/src
+git clone https://github.com/Mscode24/jetson-ros2-cuda-pointcloud.git
 cd ..
 colcon build --packages-select jetson_pointcloud
 source install/setup.bash
@@ -61,5 +61,3 @@ On the Jetson Nano, this node achieves:
 - **Latency:** < 40ms processing time per frame.
 - **Stability:** Stable 6 FPS operation at 10W power mode.
 
-## 📜 License
-[Your License Choice, e.g., MIT or Apache 2.0]
